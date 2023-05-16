@@ -633,6 +633,7 @@ button {
 .btn-sub:hover,
 .btn-sub:focus {
   background-color: var(--color-ocean);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-icon {
@@ -665,9 +666,11 @@ button {
 .text-form:focus {
   border: 1px solid var(--color-iris);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-form:focus + .icon-form {
   fill: var(--color-iris);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-form-modal {
   resize: none;
